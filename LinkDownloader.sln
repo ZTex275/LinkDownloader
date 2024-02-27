@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDownloader", "LinkDownloader\LinkDownloader\LinkDownloader.csproj", "{E09685E0-E7FC-4B78-89B8-D6D2D1ACF423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDownloader.Android", "LinkDownloader\LinkDownloader.Android\LinkDownloader.Android.csproj", "{F6413EEB-C713-4A12-841E-5699897B1EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDownloader.Desktop", "LinkDownloader\LinkDownloader.Desktop\LinkDownloader.Desktop.csproj", "{7D979D87-3028-4E12-9EF8-BC0FAB81FD81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E09685E0-E7FC-4B78-89B8-D6D2D1ACF423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09685E0-E7FC-4B78-89B8-D6D2D1ACF423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09685E0-E7FC-4B78-89B8-D6D2D1ACF423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09685E0-E7FC-4B78-89B8-D6D2D1ACF423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6413EEB-C713-4A12-841E-5699897B1EAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7D979D87-3028-4E12-9EF8-BC0FAB81FD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D979D87-3028-4E12-9EF8-BC0FAB81FD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D979D87-3028-4E12-9EF8-BC0FAB81FD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D979D87-3028-4E12-9EF8-BC0FAB81FD81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAE4B074-41ED-45E1-978B-95BFE1403662}
+	EndGlobalSection
+EndGlobal

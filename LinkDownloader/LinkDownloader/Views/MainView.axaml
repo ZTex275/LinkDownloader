@@ -1,0 +1,62 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:LinkDownloader.ViewModels"
+             mc:Ignorable="d" MinWidth="400" MinHeight="600"
+             x:Class="LinkDownloader.Views.MainView"
+             Foreground="#171C2C"
+             Background="White">
+  <Design.DataContext>
+    <viewModels:MainViewModel />
+  </Design.DataContext>
+
+	<Grid HorizontalAlignment="Center">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="10*"/>
+			<RowDefinition Height="10*"/>
+			<RowDefinition Height="10*"/>
+			<RowDefinition Height="10*"/>
+			<RowDefinition Height="30*"/>
+		</Grid.RowDefinitions>
+		
+        <TextBlock 
+			Grid.Row="0"
+			Text="{Binding EnterLink}" 
+			VerticalAlignment="Center"
+			HorizontalAlignment="Center" />
+	    <TextBox 
+			Grid.Row="1"
+			Text="{Binding Link}" 
+			TextAlignment="Center"
+			VerticalAlignment="Center"
+			HorizontalAlignment="Center" />
+		<TextBlock
+			Grid.Row="2"
+			Text="{Binding EnterEpisodes}"
+			VerticalAlignment="Center"
+			HorizontalAlignment="Center" />
+		<TextBox
+			Grid.Row="3"
+			MinWidth="200"
+			Text="{Binding NumberOfEpisodes}"
+			TextAlignment="Center"
+			VerticalAlignment="Center"
+			HorizontalAlignment="Center" />
+		<Button
+			Grid.Row="4"
+			Command="{Binding DownloadButton}" 
+			VerticalAlignment="Bottom"
+			HorizontalAlignment="Center" >
+			<TextBlock
+				Padding="10"
+				Width="150"
+				Height="40"
+				Background="Gray"
+				TextAlignment="Center"
+				VerticalAlignment="Center"
+				HorizontalAlignment="Center"
+				Text="{Binding Download}" />
+		</Button>
+	</Grid>
+</UserControl>
